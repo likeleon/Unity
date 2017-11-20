@@ -2,10 +2,15 @@
 
 public class LoseCollider : MonoBehaviour
 {
-    public LevelManager LevelManager;
+    private LevelManager _levelManager;
+
+    public void Start()
+    {
+        _levelManager = FindObjectOfType<LevelManager>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        LevelManager.LoadLevel("Win Screen");
+        _levelManager.LoadLevel("Win Screen");
     }
 }

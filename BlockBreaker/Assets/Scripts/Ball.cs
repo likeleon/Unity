@@ -2,21 +2,21 @@
 
 public class Ball : MonoBehaviour
 {
-    public Paddle Paddle;
-
+    private Paddle _paddle;
     private bool _isStarted;
     private Vector3 _paddleToBall;
 
     void Start()
     {
-        _paddleToBall = transform.position - Paddle.transform.position;
+        _paddle = FindObjectOfType<Paddle>();
+        _paddleToBall = transform.position - _paddle.transform.position;
     }
-    
+
     void Update()
     {
         if (!_isStarted)
         {
-            transform.position = Paddle.transform.position + _paddleToBall;
+            transform.position = _paddle.transform.position + _paddleToBall;
 
             if (Input.GetMouseButtonDown(0))
             {
