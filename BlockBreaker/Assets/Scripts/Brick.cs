@@ -16,7 +16,10 @@ public class Brick : MonoBehaviour
     {
         ++_timesHit;
 
-        SimulateWin();
+        if (_timesHit >= MaxHits)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void SimulateWin()
