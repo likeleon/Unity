@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class Brick : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class Brick : MonoBehaviour
     private int _timesHit;
 
     public int MaxHits;
+    public Sprite[] HitSprites;
 
     private void Start()
     {
@@ -20,6 +22,16 @@ public class Brick : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else
+        {
+            LoadSprites();
+        }
+    }
+
+    private void LoadSprites()
+    {
+        int spriteIndex = _timesHit - 1;
+        GetComponent<SpriteRenderer>().sprite = HitSprites[spriteIndex];
     }
 
     private void SimulateWin()
