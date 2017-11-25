@@ -6,13 +6,13 @@ public class Ball : MonoBehaviour
     private bool _isStarted;
     private Vector3 _paddleToBall;
 
-    void Start()
+    private void Start()
     {
         _paddle = FindObjectOfType<Paddle>();
         _paddleToBall = transform.position - _paddle.transform.position;
     }
 
-    void Update()
+    private void Update()
     {
         if (!_isStarted)
         {
@@ -24,6 +24,14 @@ public class Ball : MonoBehaviour
 
                 _isStarted = true;
             }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (_isStarted)
+        {
+            GetComponent<AudioSource>().Play();
         }
     }
 }
