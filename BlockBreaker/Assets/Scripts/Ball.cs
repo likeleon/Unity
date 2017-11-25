@@ -32,6 +32,9 @@ public class Ball : MonoBehaviour
         if (_isStarted)
         {
             GetComponent<AudioSource>().Play();
+
+            var tweak = new Vector2(Random.Range(0f, 0.2f), Random.Range(0f, 0.2f));
+            GetComponent<Rigidbody2D>().velocity += tweak;
         }
     }
 }
