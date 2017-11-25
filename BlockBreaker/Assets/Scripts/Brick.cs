@@ -6,6 +6,7 @@ public class Brick : MonoBehaviour
 
     public Sprite[] HitSprites;
     public AudioClip Crack;
+    public GameObject Smoke;
 
     private LevelManager _levelManager;
     private int _timesHit;
@@ -39,6 +40,10 @@ public class Brick : MonoBehaviour
         int maxHits = HitSprites.Length + 1;
         if (_timesHit >= maxHits)
         {
+            var smoke = Instantiate(Smoke, transform.position, Quaternion.identity);
+            var main = smoke.GetComponent<ParticleSystem>().main;
+            main.startColor = GetComponent<SpriteRenderer>().color;
+
             --BreakableCount;
             _levelManager.BrickDestroyed();
 

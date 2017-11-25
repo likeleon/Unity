@@ -82,6 +82,7 @@ MonoBehaviour:
   - {fileID: 21300006, guid: a9617375581c2ea44868045a0a855421, type: 3}
   - {fileID: 21300008, guid: a9617375581c2ea44868045a0a855421, type: 3}
   Crack: {fileID: 8300000, guid: 20d8c5468b828754abc57ce5c0a261a9, type: 3}
+  Smoke: {fileID: 1321846476051288, guid: fed9dc2500195694da5957c590ee075d, type: 2}
 --- !u!212 &212535137489493828
 SpriteRenderer:
   m_ObjectHideFlags: 1
