@@ -7,6 +7,7 @@ public class FormationController : MonoBehaviour
     public float Width = 10f;
     public float Height = 5f;
     public float MoveSpeed = 5.0f;
+    public float SpawnDelay = 0.5f;
 
     private bool _movingRight = true;
     private float _minX;
@@ -25,9 +26,40 @@ public class FormationController : MonoBehaviour
     {
         foreach (Transform child in transform)
         {
-            var enemy = Instantiate(EnemyPrefab, child.transform.position, Quaternion.identity) as GameObject;
-            enemy.transform.parent = child;
+            SpawnEnemy(child);
         }
+    }
+
+    private void SpawnEnemy(Transform transform)
+    {
+        var enemy = Instantiate(EnemyPrefab, transform.position, Quaternion.identity) as GameObject;
+        enemy.transform.parent = transform;
+    }
+
+    private void SpawnUntilFull()
+    {
+        var freePosition = GetNextFreePosition();
+        if (freePosition != null)
+        {
+            SpawnEnemy(freePosition);
+        }
+
+        if (GetNextFreePosition() != null)
+        {
+            Invoke(nameof(SpawnUntilFull), SpawnDelay);
+        }
+    }
+
+    private Transform GetNextFreePosition()
+    {
+        foreach (Transform child in transform)
+        {
+            if (child.childCount <= 0)
+            {
+                return child;
+            }
+        }
+        return null;
     }
 
     private void OnDrawGizmos()
@@ -59,7 +91,7 @@ public class FormationController : MonoBehaviour
 
         if (AllMembersDead())
         {
-            SpawnEnemies();
+            SpawnUntilFull();
         }
     }
 
