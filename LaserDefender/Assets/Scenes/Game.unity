@@ -603,6 +603,10 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1743482982644974, guid: 353d832c6ceb59a45bb7c5505b76adea, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 353d832c6ceb59a45bb7c5505b76adea, type: 2}
   m_IsPrefabParent: 0
