@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class EnemySpawner : MonoBehaviour
+public class FormationController : MonoBehaviour
 {
     public GameObject EnemyPrefab;
 
@@ -19,6 +18,11 @@ public class EnemySpawner : MonoBehaviour
         _minX = Camera.main.ViewportToWorldPoint(new Vector3(0f, 0f, distanceToCamera)).x;
         _maxX = Camera.main.ViewportToWorldPoint(new Vector3(1f, 0f, distanceToCamera)).x;
 
+        SpawnEnemies();
+    }
+
+    private void SpawnEnemies()
+    {
         foreach (Transform child in transform)
         {
             var enemy = Instantiate(EnemyPrefab, child.transform.position, Quaternion.identity) as GameObject;
@@ -52,5 +56,22 @@ public class EnemySpawner : MonoBehaviour
         {
             _movingRight = false;
         }
+
+        if (AllMembersDead())
+        {
+            SpawnEnemies();
+        }
+    }
+
+    private bool AllMembersDead()
+    {
+        foreach (Transform child in transform)
+        {
+            if (child.childCount > 0)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 }

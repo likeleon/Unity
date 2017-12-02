@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class EnemyBehaviour : MonoBehaviour
+public class EnemyFormation : MonoBehaviour
 {
     public float Health = 150f;
     public GameObject Projectile;
