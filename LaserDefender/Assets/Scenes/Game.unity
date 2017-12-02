@@ -200,7 +200,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4571593050867382, guid: 5043b9c4d739b3844b1488c311348aba, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1981015444738010, guid: 5043b9c4d739b3844b1488c311348aba, type: 2}
       propertyPath: m_Name
@@ -512,6 +512,7 @@ MonoBehaviour:
   Width: 10
   Height: 5
   MoveSpeed: 1
+  SpawnDelay: 0.5
 --- !u!1001 &1623200108
 Prefab:
   m_ObjectHideFlags: 0
