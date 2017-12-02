@@ -1,11 +1,19 @@
 ﻿using UnityEngine;
 
-public class EnemyFormation : MonoBehaviour
+public class EnemyBehaviour : MonoBehaviour
 {
     public float Health = 150f;
     public GameObject Projectile;
     public float ProjectileSpeed = 10f;
     public float ShotsPerSeconds = 0.5f;
+    public int ScoreValue = 150;
+
+    private ScoreKeeper _scoreKeeper;
+
+    private void Start()
+    {
+        _scoreKeeper = GameObject.Find("Score").GetComponent<ScoreKeeper>();
+    }
 
     private void Update()
     {
@@ -36,6 +44,8 @@ public class EnemyFormation : MonoBehaviour
         Health -= projectile.Damage;
         if (Health <= 0)
         {
+            _scoreKeeper.Scored(ScoreValue);
+
             Destroy(gameObject);
         }
     }
