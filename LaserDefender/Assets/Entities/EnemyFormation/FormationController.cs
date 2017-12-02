@@ -19,15 +19,7 @@ public class FormationController : MonoBehaviour
         _minX = Camera.main.ViewportToWorldPoint(new Vector3(0f, 0f, distanceToCamera)).x;
         _maxX = Camera.main.ViewportToWorldPoint(new Vector3(1f, 0f, distanceToCamera)).x;
 
-        SpawnEnemies();
-    }
-
-    private void SpawnEnemies()
-    {
-        foreach (Transform child in transform)
-        {
-            SpawnEnemy(child);
-        }
+        SpawnUntilFull();
     }
 
     private void SpawnEnemy(Transform transform)
