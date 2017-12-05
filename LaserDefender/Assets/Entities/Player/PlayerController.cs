@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour
     public float ProjectileSpeed;
     public float FiringRate = 0.2f;
     public float Health = 250f;
-
+    public AudioClip FireSound;
+    
     private float _minX;
     private float _maxX;
 
@@ -48,6 +49,8 @@ public class PlayerController : MonoBehaviour
         var beamPosition = transform.position + Vector3.up;
         var beam = Instantiate(Projectile, beamPosition, Quaternion.identity) as GameObject;
         beam.GetComponent<Rigidbody2D>().velocity = new Vector3(0, ProjectileSpeed, 0);
+
+        AudioSource.PlayClipAtPoint(FireSound, transform.position);
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
@@ -63,7 +66,14 @@ public class PlayerController : MonoBehaviour
         Health -= projectile.Damage;
         if (Health <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        var levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+        levelManager.LoadLevel("Win Screen");
+        Destroy(gameObject);
     }
 }
