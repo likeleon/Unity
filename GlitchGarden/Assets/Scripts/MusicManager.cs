@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MusicManager : MonoBehaviour
 {
@@ -11,19 +12,24 @@ public class MusicManager : MonoBehaviour
         DontDestroyOnLoad(this);
     }
 
-    private void Start()
+    private void OnEnable()
     {
-        _audioSource = GetComponent<AudioSource>();
+        SceneManager.sceneLoaded += SceneManager_sceneLoaded;
     }
 
-    private void OnLevelWasLoaded(int level)
+    private void OnDisable()
     {
-        if (level >= LevelMusicChanges.Length)
+        SceneManager.sceneLoaded -= SceneManager_sceneLoaded;
+    }
+
+    private void SceneManager_sceneLoaded(Scene arg0, LoadSceneMode arg1)
+    {
+        if (arg0.buildIndex >= LevelMusicChanges.Length)
         {
             return;
         }
 
-        var thisLevelMusic = LevelMusicChanges[level];
+        var thisLevelMusic = LevelMusicChanges[arg0.buildIndex];
         if (thisLevelMusic == null)
         {
             return;
@@ -32,5 +38,15 @@ public class MusicManager : MonoBehaviour
         _audioSource.clip = thisLevelMusic;
         _audioSource.loop = true;
         _audioSource.Play();
+    }
+
+    private void Start()
+    {
+        _audioSource = GetComponent<AudioSource>();
+    }
+
+    public void ChangeVolume(float value)
+    {
+        _audioSource.volume = value;
     }
 }
