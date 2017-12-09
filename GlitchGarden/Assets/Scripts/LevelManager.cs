@@ -7,7 +7,10 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        Invoke(nameof(LoadNextLevel), AutoLoadNextLevelDelay);
+        if (AutoLoadNextLevelDelay > 0.0f)
+        {
+            Invoke(nameof(LoadNextLevel), AutoLoadNextLevelDelay);
+        }
     }
 
     public void LoadLevel(string name)

@@ -9,5 +9,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Splash.unity
     guid: ae404a3733c993d49a1d51051dcc4ee1
   - enabled: 1
-    path: Assets/Scenes/Start Menu.unity
+    path: Assets/Scenes/Start.unity
+    guid: c42e2e4c64fab1c41a1992ed36d12bce
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: c5ac27e83109db0419bedb936642a2cb
+  - enabled: 1
+    path: Assets/Scenes/Level_01.unity
     guid: 9b0d3edf552796b43ad92e0c7a370961
+  - enabled: 1
+    path: Assets/Scenes/Level_02.unity
+    guid: c4f5e21c518d66642aa5d269eed3a548
+  - enabled: 1
+    path: Assets/Scenes/Level_03.unity
+    guid: acc0f579c873646478b32625c92443b6
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 78face575a5914142b7c0a5ce1e7385c
+  - enabled: 1
+    path: Assets/Scenes/Lose.unity
+    guid: ef7b5831ff444324eabe972f51b9c1bb
