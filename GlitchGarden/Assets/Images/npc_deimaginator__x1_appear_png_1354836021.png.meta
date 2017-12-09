@@ -1,0 +1,721 @@
+fileFormatVersion: 2
+guid: b902437c5413fd848a5d6d627b73c594
+timeCreated: 1512829781
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: npc_deimaginator__x1_appear_png_1354836021_0
+    21300002: npc_deimaginator__x1_appear_png_1354836021_1
+    21300004: npc_deimaginator__x1_appear_png_1354836021_2
+    21300006: npc_deimaginator__x1_appear_png_1354836021_3
+    21300008: npc_deimaginator__x1_appear_png_1354836021_4
+    21300010: npc_deimaginator__x1_appear_png_1354836021_5
+    21300012: npc_deimaginator__x1_appear_png_1354836021_6
+    21300014: npc_deimaginator__x1_appear_png_1354836021_7
+    21300016: npc_deimaginator__x1_appear_png_1354836021_8
+    21300018: npc_deimaginator__x1_appear_png_1354836021_9
+    21300020: npc_deimaginator__x1_appear_png_1354836021_10
+    21300022: npc_deimaginator__x1_appear_png_1354836021_11
+    21300024: npc_deimaginator__x1_appear_png_1354836021_12
+    21300026: npc_deimaginator__x1_appear_png_1354836021_13
+    21300028: npc_deimaginator__x1_appear_png_1354836021_14
+    21300030: npc_deimaginator__x1_appear_png_1354836021_15
+    21300032: npc_deimaginator__x1_appear_png_1354836021_16
+    21300034: npc_deimaginator__x1_appear_png_1354836021_17
+    21300036: npc_deimaginator__x1_appear_png_1354836021_18
+    21300038: npc_deimaginator__x1_appear_png_1354836021_19
+    21300040: npc_deimaginator__x1_appear_png_1354836021_20
+    21300042: npc_deimaginator__x1_appear_png_1354836021_21
+    21300044: npc_deimaginator__x1_appear_png_1354836021_22
+    21300046: npc_deimaginator__x1_appear_png_1354836021_23
+    21300048: npc_deimaginator__x1_appear_png_1354836021_24
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1488
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1488
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1488
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1302
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1302
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_5
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1302
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1116
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_7
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1116
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_8
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1116
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_10
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_11
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_14
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_16
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_17
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_19
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_20
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_22
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_23
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: npc_deimaginator__x1_appear_png_1354836021_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -324.5, y: -727}
+      - {x: -330.5, y: -729}
+      - {x: -341.5, y: -740}
+      - {x: -341.5, y: -799}
+      - {x: -324.5, y: -817}
+      - {x: -257.5, y: -817}
+      - {x: -257.5, y: -783}
+      - {x: -295.5, y: -727}
+    - - {x: -314.5, y: -542}
+      - {x: -333.5, y: -549}
+      - {x: -340.5, y: -562}
+      - {x: -340.5, y: -612}
+      - {x: -324.5, y: -632}
+      - {x: -276.5, y: -632}
+      - {x: -257.5, y: -621}
+      - {x: -257.5, y: -606}
+      - {x: -303.5, y: -542}
+    - - {x: -76.5, y: -541}
+      - {x: -77.5, y: -543}
+      - {x: -89.5, y: -572}
+      - {x: -89.5, y: -616}
+      - {x: -87.5, y: -632}
+      - {x: -17.5, y: -632}
+      - {x: -7.5, y: -631}
+      - {x: -6.5, y: -624}
+      - {x: -6.5, y: -582}
+      - {x: -43.5, y: -541}
+    - - {x: 181.5, y: -541}
+      - {x: 175.5, y: -543}
+      - {x: 160.5, y: -565}
+      - {x: 160.5, y: -631}
+      - {x: 244.5, y: -631}
+      - {x: 244.5, y: -605}
+      - {x: 205.5, y: -541}
+    - - {x: -246.5, y: -440}
+      - {x: -236.5, y: -452}
+      - {x: -192.5, y: -452}
+      - {x: -177.5, y: -447}
+      - {x: -177.5, y: -409}
+      - {x: -180.5, y: -399}
+      - {x: -187.5, y: -385}
+      - {x: -229.5, y: -385}
+      - {x: -246.5, y: -389}
+    - - {x: -338.5, y: -446}
+      - {x: -267.5, y: -446}
+      - {x: -257.5, y: -441}
+      - {x: -257.5, y: -420}
+      - {x: -286.5, y: -385}
+      - {x: -308.5, y: -360}
+      - {x: -330.5, y: -360}
+      - {x: -338.5, y: -362}
+    - - {x: 197.5, y: -358}
+      - {x: 181.5, y: -358}
+      - {x: 163.5, y: -368}
+      - {x: 162.5, y: -386}
+      - {x: 162.5, y: -406}
+      - {x: 164.5, y: -410}
+      - {x: 173.5, y: -444}
+      - {x: 186.5, y: -440}
+      - {x: 192.5, y: -437}
+      - {x: 193.5, y: -435}
+      - {x: 198.5, y: -435}
+      - {x: 196.5, y: -435}
+      - {x: 193.5, y: -439}
+      - {x: 188.5, y: -445}
+      - {x: 193.5, y: -446}
+      - {x: 232.5, y: -446}
+      - {x: 244.5, y: -444}
+      - {x: 244.5, y: -419}
+      - {x: 219.5, y: -381}
+    - - {x: -34.5, y: -380}
+      - {x: -57.5, y: -360}
+      - {x: -68.5, y: -360}
+      - {x: -87.5, y: -371}
+      - {x: -87.5, y: -416}
+      - {x: -79.5, y: -440}
+      - {x: -60.5, y: -445}
+      - {x: -27.5, y: -445}
+      - {x: -6.5, y: -438}
+      - {x: -6.5, y: -426}
+      - {x: -9.5, y: -422}
+    - - {x: 35.5, y: -429}
+      - {x: 30.5, y: -430}
+      - {x: 29.5, y: -431}
+      - {x: 29.5, y: -435}
+      - {x: 30.5, y: -440}
+      - {x: 32.5, y: -441}
+      - {x: 45.5, y: -441}
+      - {x: 46.5, y: -439}
+      - {x: 46.5, y: -437}
+      - {x: 43.5, y: -429}
+    - - {x: -238.5, y: -141}
+      - {x: -252.5, y: -143}
+      - {x: -332.5, y: -157}
+      - {x: -332.5, y: -229}
+      - {x: -306.5, y: -270}
+      - {x: -251.5, y: -281}
+      - {x: -141.5, y: -281}
+      - {x: -139.5, y: -265}
+      - {x: -139.5, y: -159}
+      - {x: -187.5, y: -141}
+    - - {x: 69.5, y: -148}
+      - {x: 39.5, y: -148}
+      - {x: 32.5, y: -149}
+      - {x: 15.5, y: -175}
+      - {x: -0.5, y: -156}
+      - {x: -8.5, y: -158}
+      - {x: -27.5, y: -167}
+      - {x: -26.5, y: -178}
+      - {x: -39.5, y: -165}
+      - {x: -66.5, y: -164}
+      - {x: -88.5, y: -182}
+      - {x: -88.5, y: -249}
+      - {x: -56.5, y: -265}
+      - {x: 6.5, y: -279}
+      - {x: 72.5, y: -279}
+      - {x: 105.5, y: -259}
+      - {x: 105.5, y: -176}
+    - - {x: 163.5, y: -167}
+      - {x: 163.5, y: -274}
+      - {x: 339.5, y: -274}
+      - {x: 344.5, y: -259}
+      - {x: 344.5, y: -175}
+      - {x: 328.5, y: -167}
+    - - {x: 328.5, y: 23}
+      - {x: 325.5, y: 19}
+      - {x: 314.5, y: 37}
+      - {x: 311.5, y: 40}
+      - {x: 176.5, y: 40}
+      - {x: 176.5, y: -44}
+      - {x: 239.5, y: -94}
+      - {x: 323.5, y: -94}
+      - {x: 360.5, y: -86}
+      - {x: 363.5, y: -26}
+      - {x: 363.5, y: 10}
+      - {x: 355.5, y: 15}
+    - - {x: -66.5, y: 47}
+      - {x: -68.5, y: 37}
+      - {x: -68.5, y: -60}
+      - {x: -11.5, y: -91}
+      - {x: 104.5, y: -91}
+      - {x: 112.5, y: -77}
+      - {x: 112.5, y: 47}
+    - - {x: -200.5, y: 54}
+      - {x: -313.5, y: 54}
+      - {x: -313.5, y: -66}
+      - {x: -306.5, y: -88}
+      - {x: -144.5, y: -88}
+      - {x: -138.5, y: -63}
+      - {x: -138.5, y: 10}
+      - {x: -154.5, y: 25}
+    - - {x: -275.5, y: 249}
+      - {x: -293.5, y: 228}
+      - {x: -293.5, y: 189}
+      - {x: -270.5, y: 110}
+      - {x: -253.5, y: 99}
+      - {x: -171.5, y: 99}
+      - {x: -136.5, y: 110}
+      - {x: -136.5, y: 203}
+      - {x: -204.5, y: 249}
+    - - {x: 35.5, y: 247}
+      - {x: -29.5, y: 247}
+      - {x: -46.5, y: 238}
+      - {x: -46.5, y: 121}
+      - {x: -11.5, y: 99}
+      - {x: 99.5, y: 99}
+      - {x: 109.5, y: 116}
+      - {x: 114.5, y: 148}
+      - {x: 114.5, y: 182}
+    - - {x: 331.5, y: 193}
+      - {x: 297.5, y: 220}
+      - {x: 249.5, y: 244}
+      - {x: 205.5, y: 244}
+      - {x: 197.5, y: 227}
+      - {x: 197.5, y: 210}
+      - {x: 203.5, y: 206}
+      - {x: 210.5, y: 203}
+      - {x: 202.5, y: 181}
+      - {x: 206.5, y: 156}
+      - {x: 229.5, y: 107}
+      - {x: 263.5, y: 99}
+      - {x: 333.5, y: 99}
+      - {x: 360.5, y: 117}
+      - {x: 364.5, y: 148}
+      - {x: 364.5, y: 181}
+    - - {x: -253.5, y: 427}
+      - {x: -275.5, y: 413}
+      - {x: -275.5, y: 298}
+      - {x: -264.5, y: 283}
+      - {x: -164.5, y: 283}
+      - {x: -138.5, y: 289}
+      - {x: -138.5, y: 403}
+      - {x: -175.5, y: 427}
+    - - {x: 40.5, y: 430}
+      - {x: -32.5, y: 430}
+      - {x: -32.5, y: 303}
+      - {x: -26.5, y: 290}
+      - {x: 5.5, y: 285}
+      - {x: 103.5, y: 285}
+      - {x: 113.5, y: 322}
+      - {x: 113.5, y: 377}
+    - - {x: 216.5, y: 433}
+      - {x: 212.5, y: 421}
+      - {x: 212.5, y: 361}
+      - {x: 219.5, y: 306}
+      - {x: 239.5, y: 285}
+      - {x: 341.5, y: 285}
+      - {x: 365.5, y: 297}
+      - {x: 365.5, y: 386}
+      - {x: 283.5, y: 433}
+    - - {x: -287.5, y: 608}
+      - {x: -287.5, y: 494}
+      - {x: -265.5, y: 463}
+      - {x: -141.5, y: 463}
+      - {x: -141.5, y: 585}
+      - {x: -201.5, y: 608}
+    - - {x: 43.5, y: 604}
+      - {x: -32.5, y: 604}
+      - {x: -32.5, y: 555}
+      - {x: -24.5, y: 485}
+      - {x: 6.5, y: 466}
+      - {x: 15.5, y: 464}
+      - {x: 69.5, y: 464}
+      - {x: 111.5, y: 486}
+      - {x: 111.5, y: 572}
+      - {x: 75.5, y: 585}
+    - - {x: 329.5, y: 576}
+      - {x: 317.5, y: 563}
+      - {x: 271.5, y: 595}
+      - {x: 223.5, y: 595}
+      - {x: 223.5, y: 481}
+      - {x: 258.5, y: 466}
+      - {x: 333.5, y: 466}
+      - {x: 363.5, y: 484}
+      - {x: 363.5, y: 564}
+      - {x: 336.5, y: 574}
+    - - {x: 315.5, y: 763}
+      - {x: 263.5, y: 782}
+      - {x: 245.5, y: 782}
+      - {x: 237.5, y: 781}
+      - {x: 219.5, y: 771}
+      - {x: 219.5, y: 659}
+      - {x: 245.5, y: 652}
+      - {x: 348.5, y: 652}
+      - {x: 353.5, y: 661}
+      - {x: 353.5, y: 748}
+      - {x: 351.5, y: 754}
+    - - {x: -0.5, y: 747}
+      - {x: -10.5, y: 740}
+      - {x: -10.5, y: 723}
+      - {x: -1.5, y: 673}
+      - {x: 9.5, y: 661}
+      - {x: 72.5, y: 661}
+      - {x: 81.5, y: 665}
+      - {x: 81.5, y: 747}
+    - - {x: -223.5, y: 687}
+      - {x: -223.5, y: 681}
+      - {x: -217.5, y: 675}
+      - {x: -204.5, y: 675}
+      - {x: -204.5, y: 685}
+      - {x: -210.5, y: 687}
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
