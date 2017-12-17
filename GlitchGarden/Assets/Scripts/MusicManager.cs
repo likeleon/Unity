@@ -45,7 +45,7 @@ public class MusicManager : MonoBehaviour
         _audioSource = GetComponent<AudioSource>();
     }
 
-    public void ChangeVolume(float value)
+    public void SetVolume(float value)
     {
         _audioSource.volume = value;
     }

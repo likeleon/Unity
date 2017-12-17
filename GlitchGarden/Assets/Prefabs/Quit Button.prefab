@@ -101,8 +101,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114227995996561140, guid: a844f6b2364fda446a700faa3abb25b0,
-          type: 2}
+      - m_Target: {fileID: 11400000, guid: ed65dde16a38c42a79b8011ae4ed0bbb, type: 2}
         m_MethodName: QuitRequest
         m_Mode: 1
         m_Arguments:
